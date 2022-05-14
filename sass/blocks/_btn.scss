@@ -1,0 +1,50 @@
+.btn {
+    background: #F78434;
+    border-radius: 29px;
+    color: white;
+    height: 58px;
+    padding: 0px 37px;
+    font-weight: 700;
+    line-height: 58px;
+    transition: 0.3s;
+
+    &:hover {
+        background-color: #ff6a00;
+        transition: 0.3s;
+    }
+
+    &--white {
+        background-color: white;
+        color: #323232;
+        transition: background-color 0.2s ease-in, color 0.2s easy-in;
+
+        &:hover {
+            background-color: #323232;
+            color: white;
+        }
+
+    }
+
+    &--play {
+        padding-left: 50px;
+        position: relative;
+    
+        &::before {
+            content: '';
+            display: block;
+            width: 12px;
+            height: 12px;
+            background-image: url("../../img/Icon\ \(2\).svg");
+            background-size: initial;
+            background-repeat: no-repeat;
+            position: absolute;
+            left: 30px;
+            top: 50%;
+            transform: translateY(-50%);
+            margin-top: 1px;
+        }
+
+    }
+
+
+}

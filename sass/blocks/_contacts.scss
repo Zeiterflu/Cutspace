@@ -1,0 +1,49 @@
+.contact {
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 55px;
+    background: url("../../img/Bg.svg");
+    background-size: cover;
+    color: #fff;
+
+    &:before {
+        content: '';
+        bottom: -1px;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        display: block;
+        height: 372px;
+        width: 743px;
+        background: url("../../img/Oval\ \(2\).svg");
+        background-size: initial;
+        background-repeat: no-repeat;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        display: block;
+        height: 547px;
+        width: 478px;
+        background: url("../../img/Your\ image\ here.png");
+        margin-left: 79px;
+        background-size: initial;
+        background-repeat: no-repeat;
+    }
+}
+
+.contact__info {
+    max-width: 360px;
+}
+
+.contact__title {
+    margin-bottom: 15px;
+}
+
+.contact__text {
+    margin-bottom: 30px;
+    max-width: 342px;
+}

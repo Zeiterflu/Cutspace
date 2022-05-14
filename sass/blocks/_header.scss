@@ -1,0 +1,44 @@
+.header {
+
+}
+
+.header__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__text {
+    width: 465px;
+}
+
+.header__title {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 1.46;
+    letter-spacing: 0.8px;
+    margin-bottom: 25px;
+    margin-right: -160px;
+    position: relative;
+    z-index: 9;
+}
+
+
+
+.header__text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6875;
+    letter-spacing: 1.15px;
+    margin-bottom: 1em;
+}
+
+.header__img img {
+    border-radius: 40px 40px 40px 0px;
+
+}
+
+.header__form {
+    margin-top: 42px;
+}
+
